@@ -119,7 +119,7 @@ read -p $'\e[37mTo acknowledge and continue, press enter. To exit, press Ctrl+C.
 fi
 
 # ensure we have all the required dependencies
-dependency_check "jq-1.7.1" "https://jqlang.github.io/jq/download/" "jq --version" "1.7.1"
+dependency_check "jq-1.6" "https://objects.githubusercontent.com/github-production-release-asset-2e65be/5101141/e4612500-eca9-11e8-8306-c58af06c65f5?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241012%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241012T085336Z&X-Amz-Expires=300&X-Amz-Signature=2552b4566f94c56e4e44b9c61413eac389f5d1b1003ac7213c744eba4bdb9560&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3Djq-1.6.tar.gz&response-content-type=application%2Foctet-stream" "jq --version" "1.6"
 dependency_check "sponge" "https://joeyh.name/code/moreutils/" "-v sponge" ""
 dependency_check "imagemagick" "https://imagemagick.org/script/download.php" "convert --version" ""
 dependency_check "spritesheet-js" "https://www.npmjs.com/package/spritesheet-js" "-v spritesheet-js" ""
